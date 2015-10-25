@@ -1,0 +1,13 @@
+<Alloy>
+    <View id="mainView">
+        <View id="mainTopBar">
+            <View id="menuButton"/>
+            <!--Label>News Feed</Label-->
+        </View>
+        <TableView>
+            <TableViewRow id="row">
+                <View id="view" backgroundColor="red" width="20" height="20"/>
+            </TableViewRow>
+        </TableView>
+    </View>
+</Alloy>

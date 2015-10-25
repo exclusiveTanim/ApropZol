@@ -1,0 +1,10 @@
+<Alloy>
+	<Tab id="NewsFeedTab" title="News Feed " icon="Messaging-Message-Group-icon.png">
+		<Window id="news_feed" title="News Feed" backgroundColor="white" navBarHidden="true">
+			<Require type="widget" src="com.alcoapps.drawermenu" id="drawermenu"/>
+			<!--View class="container">
+				<Label>News Feed Window</Label>
+			</View-->
+		</Window>
+	</Tab>
+</Alloy>

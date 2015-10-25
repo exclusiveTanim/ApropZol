@@ -1,0 +1,9 @@
+<Alloy>
+	<Tab id="MessageTab" title="Message" icon="Messaging-Message-Group-icon.png">
+		<Window id="messagewin" title="Message" backgroundColor="white">
+			<View class="container">
+				<Label tintColor="green">Message Tab</Label>
+			</View>
+		</Window>
+	</Tab>
+</Alloy>

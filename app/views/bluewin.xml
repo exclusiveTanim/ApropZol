@@ -1,0 +1,9 @@
+<Alloy>
+	<TabGroup navBarHidden="true">
+		<Require src="NewsFeed" id="NewsFeedTab" />
+		<Require src="MyListing" id="MyListingTab" />
+		<Require src="Message" id="MessageTab" />
+		<Require src="Calender" id="CalenderTab" />
+		<Require src="Request" id="RequestTab" />
+	</TabGroup>
+</Alloy>

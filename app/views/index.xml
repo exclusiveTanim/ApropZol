@@ -1,0 +1,17 @@
+<Alloy>
+	<!--NavigationWindow id="win1" platform="ios"-->
+	<Window id="win1"title="Login"class="container">
+		<TextField id="textField"  color="#336699" textAlign="center" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" returnKeyType="Ti.UI.RETURNKEY_DEFAULT"
+		height= "45"top= "100"left = "10" right="10" width="Ti.UI.FILL" hintText = "E-mail" />
+		<TextField id="textField1" color="#336699" textAlign="center" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED"
+		returnKeyType="Ti.UI.RETURNKEY_DEFAULT" height= "45"top= "150"left = "10" right="10"
+		width ="Ti.UI.FILL"hintText="Password"/>
+		<Button title="FORGOT PASSWORD" height="Ti.UI.SIZE" width="Ti.UI.FILL"
+		top="200" left="10" right="10" />
+		<Button title="Login" onClick="doClick" height="Ti.UI.SIZE" width="Ti.UI.FILL"
+		top="250" left="10" right="10" backgroundColor="gray" />
+		<Label top="340" left="130" color="black">New here?</Label>
+		<!--ImageView id="image" top="350" image="/images/horizontal-line.png" /-->
+	</Window>
+	<!--/NavigationWindow-->
+</Alloy>

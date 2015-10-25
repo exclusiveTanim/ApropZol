@@ -1,0 +1,10 @@
+<Alloy>
+	<Tab id="MyListingTab" title="My Listing" icon="KS_nav_views.png">
+		<Window id="mylistingwin" title="My Listing" backgroundColor="green">
+			<!--Require type="widget" src="com.alcoapps.drawermenu" id="drawermenu"/-->
+			<View class="container">
+				<Label>My Listing Window</Label>
+			</View>
+		</Window>
+	</Tab>
+</Alloy>

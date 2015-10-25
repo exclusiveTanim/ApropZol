@@ -1,0 +1,9 @@
+<Alloy>
+	<Tab id="RequestTab" title="Request" icon="Messaging-Message-Group-icon.png">
+		<Window id="request" title="Request" backgroundColor="white">
+			<View class="container">
+				<Label tintColor="green">Request Page</Label>
+			</View>
+		</Window>
+	</Tab>
+</Alloy>

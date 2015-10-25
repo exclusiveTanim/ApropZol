@@ -1,0 +1,9 @@
+<Alloy>
+	<Tab id="CalenderTab" title="Calender" icon="KS_nav_views.png">
+		<Window id="calenderwin" title="Calender" backgroundColor="white">
+			<View class="container">
+				<Label>Calender Window</Label>
+			</View>
+		</Window>
+	</Tab>
+</Alloy>
