@@ -18,7 +18,16 @@ function doClick(e) {
 	var user = $.textField.value;
 	var pass = $.textField1.value;
 	//Ti.API.info(user);
-	if (user == 'a' && pass == '1') {
+	if ((user === ' ') || (user.length == 0)) {
+		alert('Please Enter Username');
+	} else if ((pass.value === ' ') || (pass.length == 0)) {
+		alert('Please Enter Password');
+	} else {
+		//transmit(e);
+		var win2 = Alloy.createController('bluewin').getView();
+		win2.open();
+	}
+	/*if (user == 'a' && pass == '1') {
 		var win2 = Alloy.createController('bluewin').getView();
 		//$.win1.openWindow(win2);
 		win2.open();
@@ -26,7 +35,7 @@ function doClick(e) {
 		alert('Insert valid user and password');
 		$.textField.value = '';
 		$.textField1.value = '';
-	}
+	}*/
 
 }
 
